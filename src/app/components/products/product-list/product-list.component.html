@@ -5,7 +5,6 @@
       <tbody>
         <tr *ngFor="let product of productList">
           <td>{{product.name}}</td>
-          <td>{{product.category}}</td>
           <td>
             <a class="btn btn-secondary text-white" (click)="onEdit(product)">
               <i class="far fa-edit">Editar</i>
